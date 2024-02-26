@@ -1,0 +1,4 @@
+- name: Exemple de playbook Ansible avec un echo
+  tasks:
+    - name: test
+      command: echo "Test playbook"

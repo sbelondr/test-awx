@@ -1,0 +1,5 @@
+- name: Exemple de playbook Ansible avec un job qui échoue
+  tasks:
+    - name: envoie une erreur
+      fail:
+        msg: "Ceci est un message d'erreur."
